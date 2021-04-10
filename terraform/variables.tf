@@ -4,6 +4,6 @@ variable "aws_region" {
 variable "vault_addr" {}
 variable "vault_token" {}
 variable "cluster-name" {
-  default = "terraform-eks-demo"
+  default = "terraform-demo"
   type    = string
 }
